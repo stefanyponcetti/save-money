@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 320px; /* Limit the width for mobile devices */
+    margin: 0 auto; /* Center horizontally */
+}
+
+h1 {
+    color: white;
+}
+
+input {
+    background-color: lightgray;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: gray;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px; /* Espaçamento abaixo do logotipo */
+}
+
+.logo img {
+    max-width: 100%; /* Garante que o logotipo não ultrapasse a largura do contêiner */
+}
